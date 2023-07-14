@@ -1,0 +1,117 @@
+/* reseteo universal */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #cd5ee8 !important;
+
+    a {
+        color: black !important;
+    }
+}
+
+/* contenedor de imagen */
+
+.home {
+    background-color: white;
+    margin-top: 20px;
+}
+
+.home-b {
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* pagina nosotros.html */
+
+.img-nosotros {
+    margin-bottom: 20px;
+}
+
+.text-metodos {
+    font-size: 20px;
+}
+
+/* pagina contacto.html */
+
+.container-contacto {
+    height: 700px;
+    width: 500px;
+    background-color: white;
+}
+
+/* modificacion sistema cards */
+
+.card {
+    margin-bottom: 5px;
+
+    &:hover {
+        transform: scale(0.9);
+    }
+}
+
+/* footer final de pagina */
+
+footer {
+    background-color: #cd5ee8;
+
+    .footer-f {
+        height: 60px;
+        width: 100%;
+    }
+
+    i {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.title-footer {
+    font-size: 15px;
+}
+
+.text-fin {
+    color: black;
+}
+
+/* personalización de scroll */
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #cd5ee8;
+    border-radius: 50px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(128, 128, 128, 0.671);
+}
+
+/* funciones de boton what's app */
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background-color: #25d366;
+    color: white;
+    padding: 25px 10px;
+    border-radius: 100px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+        background-color: #25d365c4;
+        text-decoration: none;
+    }
+}
