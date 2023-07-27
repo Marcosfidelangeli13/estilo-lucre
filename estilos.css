@@ -1,17 +1,20 @@
 @charset "UTF-8";
 /* reseteo universal */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+/* fuente */
 /* navbar */
 .navbar {
   background-color: #cd5ee8 !important;
 }
 .navbar a {
   color: black !important;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* contenedor de imagen */
@@ -36,10 +39,14 @@
 }
 
 /* pagina contacto.html */
-.container-contacto {
-  height: 700px;
-  width: 500px;
-  background-color: white;
+#img-contacto {
+  background-image: url(/img/fondo-contacto.jpg);
+  background-size: cover;
+}
+
+.borde-letras {
+  font-weight: 800;
+  -webkit-text-stroke: 0.3px white;
 }
 
 /* modificacion sistema cards */
@@ -48,6 +55,7 @@
 }
 .card:hover {
   transform: scale(0.9);
+  transition: 0.6s;
 }
 
 /* footer final de pagina */
@@ -61,6 +69,9 @@ footer .footer-f {
 footer i {
   padding: 20px;
   margin-bottom: 20px;
+}
+footer i:hover {
+  color: white !important;
 }
 
 .title-footer {
